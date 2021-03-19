@@ -60,4 +60,4 @@ SORTFILE
 ------------------------------------------------------------------------
 The way the SORT Command works is it will take your first word of your input (The algorithm name), then look for a class in the Sorting folder with a name that's the same as your first word, then execute the algorithm method in that class. Therefore, you can add your own algorithm by adding a .java file with the name of the algorithm you want, adding a method to the class with the signature "public static String[] algorithm(String[] input, boolean compare)", then add the algorithm to that method. It's recommended to extend the sort abstract class, to gain additional functionality.
 
-Once this is done, and you rebuid, your algorithm should be accessible.
+Once this is done, and you rebuild, your algorithm should be accessible.
